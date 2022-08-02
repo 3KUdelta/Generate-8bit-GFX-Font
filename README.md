@@ -43,6 +43,6 @@ Converting logic is: ./fontconvert [your_ttf_file] [fontsize] [last ascii sign] 
 
 **Step 5**
 
-Use this header file like any other freefont file.  
+Use this generated header file like any other freefont file.  
 :smile:
 
