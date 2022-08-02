@@ -19,8 +19,23 @@ Step 2
 
 Copy files to your Pi. I used FileZilla to copy all files of this Repository to /usr/bin/fontconvertbodmer/
 
-a.) download .zip from this side (green button "Code")
-b.) unzip 
-b.) create directory fontconvertbodmer in /usr/bin
-b.) 
+a.) download .zip from this side (green button "Code")  
+b.) unzip *-master.zip file  
+c.) create directory fontconvertbodmer in /usr/bin  
+d.) copy files to /user/bin/fontconvertbodmer/  
+
+Your structure should look like /usr/bin/fontconvertbodmer/fontconvert/fontconvert.c
+
+Step 3
+
+Generate fontconvert executable. (my working one for Armbian is also in the directory, you might jump to Step 4)
+
+`cd /user/bin/fontconvertbodmer/fontconvert` 
+`make -f Makefile'
+
+Step 4
+
+Convert any font with your new fontconvert executable. Try it with the Nunito-Italic.ttf from Google fonts.
+
+`./fontconvert /user/bin/fontconvertbodmer/fontconvert/Nunito-Italic.ttf 12 255 > Nunito-Italic128b.h`
 
