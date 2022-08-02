@@ -9,7 +9,7 @@ This step-by-step tutorial has been done on a Linux system. I tried to do it fir
 
 **Step 1**
 
-REQUIRES FREETYPE LIBRARY, so install it first:
+REQUIRES FREETYPE LIBRARY, so install it first on your Pi:
 
 `sudo apt-get install libfreetype6-dev`
 
