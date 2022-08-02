@@ -19,6 +19,8 @@ Step 2
 
 Copy files to your Pi. I used FileZilla to copy all files of this Repository to /usr/bin/fontconvertbodmer/
 
-a.) create directory fontconvertbodmer in /usr/bin
+a.) download .zip from this side (green button "Code")
+b.) unzip 
+b.) create directory fontconvertbodmer in /usr/bin
 b.) 
 
